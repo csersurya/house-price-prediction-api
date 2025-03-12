@@ -4,5 +4,4 @@ matplotlib
 scikit-learn
 numpy
 flask
-pickle
 joblib
