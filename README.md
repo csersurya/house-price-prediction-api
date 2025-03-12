@@ -110,5 +110,8 @@ This project builds and deploys a machine learning model to predict house prices
        http://127.0.0.1:5000/predict
    ```
 
-3. **Access the API:**
+4. **Access the API:**
    Once the container is running, the API will be available at `http://localhost:5000/`.
+   
+5. **Available on Render**
+   The app is available on render at https://house-price-prediction-api-h9g7.onrender.com
