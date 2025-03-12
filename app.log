@@ -1,0 +1,2 @@
+2025-03-12 17:59:59,706 INFO: Received request data: {'MedInc': 4, 'HouseAge': 7, 'AveRooms': 5, 'AveBedrms': 6, 'Population': 5, 'AveOccup': 5, 'Latitude': 4, 'Longitude': 4}
+2025-03-12 17:59:59,713 INFO: Prediction successful: 3.4873018999999994
