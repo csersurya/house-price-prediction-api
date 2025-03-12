@@ -76,11 +76,11 @@ This project builds and deploys a machine learning model to predict house prices
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/house-price-prediction-api.git
+   git clone https://github.com/csersurya/house-price-prediction-api.git
    cd house-price-prediction-api
    ```
 
-2. **Set Up a Virtual Environment (Optional but Recommended):**
+2. **Set Up a Virtual Environment:**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -112,9 +112,3 @@ This project builds and deploys a machine learning model to predict house prices
 
 3. **Access the API:**
    Once the container is running, the API will be available at `http://localhost:5000/`.
-
-## Conclusion
-
-This project demonstrates the end-to-end process of building a machine learning model for house price prediction, including data preprocessing, model training, hyperparameter tuning, and deploying the model as a REST API with logging and error handling. The project is modular, well-documented, and ready for further enhancements or integration into larger systems.
-
-For any questions or contributions, please feel free to open an issue or submit a pull request.
