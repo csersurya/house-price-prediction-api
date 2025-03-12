@@ -7,8 +7,8 @@
 # - logging and RotatingFileHandler for setting up logging to track API requests and errors.
 from flask import Flask, request, jsonify, render_template
 import numpy as np
-import pickle
 import logging
+import joblib
 from logging.handlers import RotatingFileHandler
 
 # Initialize the Flask application.
@@ -29,10 +29,9 @@ app.logger.setLevel(logging.INFO)  # Ensure that the logger captures INFO level 
 # ------------------------------
 # Load the Trained Model
 # ------------------------------
-# Open and load the serialized model (house_price_model.pkl) using pickle.
+# Open and load the serialized model (house_price_model.pkl) using joblib.
 # The model is loaded once at startup so that subsequent prediction requests can use it directly.
-with open('house_price_model.pkl', 'rb') as f:
-    model = pickle.load(f)
+model = joblib.load('house_price_model.pkl')
 
 
 # ------------------------------
